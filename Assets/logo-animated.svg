@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <!-- Gradientes -->
+    <linearGradient id="gradGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7DFF8F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D9A3;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00A8CC;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB84D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Filtros para sombras y resplandor -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Cabeza del pájaro (verde) -->
+  <path id="head" d="M 250 150 Q 200 120 180 180 Q 170 220 200 250 L 350 250 Q 380 220 370 180 Q 350 120 300 150 Z" 
+        fill="url(#gradGreen)" stroke="#1a1a1a" stroke-width="3" filter="url(#shadow)">
+    <animateTransform attributeName="transform" type="rotate" 
+                      from="0 275 200" to="2 275 200" 
+                      dur="2s" repeatCount="indefinite" 
+                      values="0 275 200; 2 275 200; 0 275 200; -1 275 200; 0 275 200"/>
+  </path>
+  
+  <!-- Cresta/penacho -->
+  <path d="M 240 140 Q 230 100 250 110 Q 260 80 270 105 Q 280 75 290 100 Q 300 90 280 130" 
+        fill="url(#gradGreen)" stroke="#1a1a1a" stroke-width="2" opacity="0.8">
+    <animate attributeName="d" 
+             dur="3s" repeatCount="indefinite"
+             values="M 240 140 Q 230 100 250 110 Q 260 80 270 105 Q 280 75 290 100 Q 300 90 280 130;
+                     M 240 140 Q 230 90 250 105 Q 260 70 270 100 Q 280 65 290 95 Q 300 85 280 130;
+                     M 240 140 Q 230 100 250 110 Q 260 80 270 105 Q 280 75 290 100 Q 300 90 280 130"/>
+  </path>
+  
+  <!-- Ojo -->
+  <circle cx="340" cy="200" r="18" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="340" cy="200" r="8" fill="#1a1a1a">
+    <animate attributeName="r" values="8;6;8" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Resplandor del ojo -->
+  <circle cx="345" cy="195" r="4" fill="#fff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Cuerpo cyan con botón play -->
+  <path id="body" d="M 150 250 L 120 300 L 130 320 L 180 310 L 200 360 L 220 360 L 250 320 L 400 320 L 400 250 Z" 
+        fill="url(#gradCyan)" stroke="#1a1a1a" stroke-width="3" filter="url(#shadow)">
+    <animateTransform attributeName="transform" type="translate" 
+                      values="0,0; 0,3; 0,0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Triángulos de velocidad (play) -->
+  <polygon points="170,280 140,260 140,300" fill="#fff" opacity="0.9" stroke="#1a1a1a" stroke-width="2">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="1.5s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <polygon points="210,290 180,270 180,310" fill="#fff" opacity="0.7" stroke="#1a1a1a" stroke-width="2">
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="1.5s" begin="0.2s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <!-- Círculo central (rotación) -->
+  <g id="centerCircle" filter="url(#glow)">
+    <circle cx="300" cy="285" r="45" fill="none" stroke="url(#gradCyan)" stroke-width="8" opacity="0.3"/>
+    <circle cx="300" cy="285" r="40" fill="#fff" opacity="0.1"/>
+    
+    <!-- Segmentos rotatorios -->
+    <g transform-origin="300 285">
+      <path d="M 300 245 A 40 40 0 0 1 340 285" fill="none" stroke="#00D9FF" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+      <path d="M 340 285 A 40 40 0 0 1 300 325" fill="none" stroke="#00A8CC" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+      <path d="M 300 325 A 40 40 0 0 1 260 285" fill="none" stroke="#7DFF8F" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+      
+      <animateTransform attributeName="transform" type="rotate" 
+                        from="0 300 285" to="360 300 285" 
+                        dur="3s" repeatCount="indefinite"/>
+    </g>
+    
+    <!-- Centro del círculo -->
+    <circle cx="300" cy="285" r="15" fill="#fff" opacity="0.9"/>
+    <circle cx="300" cy="285" r="8" fill="url(#gradCyan)">
+      <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Cola naranja (parte superior) -->
+  <path d="M 400 250 Q 480 240 500 280 L 480 300 Q 450 290 420 300 L 400 280 Z" 
+        fill="url(#gradOrange)" stroke="#1a1a1a" stroke-width="3" filter="url(#shadow)" opacity="0.9">
+    <animateTransform attributeName="transform" type="rotate" 
+                      values="0 400 275; 5 400 275; 0 400 275; -3 400 275; 0 400 275" 
+                      dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Cola naranja (parte inferior) -->
+  <path d="M 400 320 L 420 350 Q 450 380 480 400 L 500 380 Q 470 340 450 330 L 400 320 Z" 
+        fill="url(#gradOrange)" stroke="#1a1a1a" stroke-width="3" filter="url(#shadow)">
+    <animateTransform attributeName="transform" type="rotate" 
+                      values="0 400 350; -5 400 350; 0 400 350; 3 400 350; 0 400 350" 
+                      dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Pico (diamantes naranjas) -->
+  <g id="beak">
+    <polygon points="500,280 550,300 500,320" fill="url(#gradOrange)" stroke="#1a1a1a" stroke-width="3" filter="url(#shadow)">
+      <animateTransform attributeName="transform" type="scale" 
+                        values="1,1; 1.05,0.95; 1,1" 
+                        additive="sum"
+                        dur="1.5s" repeatCount="indefinite"/>
+    </g>
+    <polygon points="500,320 550,340 500,360" fill="url(#gradOrange)" stroke="#1a1a1a" stroke-width="3" filter="url(#shadow)" opacity="0.95">
+      <animateTransform attributeName="transform" type="scale" 
+                        values="1,1; 0.95,1.05; 1,1" 
+                        additive="sum"
+                        dur="1.5s" begin="0.2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Detalles decorativos -->
+  <circle cx="240" cy="340" r="6" fill="#fff" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="360" cy="340" r="6" fill="#fff" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
