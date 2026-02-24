@@ -117,11 +117,13 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 
 Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más información.
 
-## 👤 Autor
+## 👤 Creadores
 
-**Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Email: tu-email@ejemplo.com
+**Miembros**
+- jepherson
+- Elias
+- Daniel
+- Albert
 
 ## 🙏 Agradecimientos
 
