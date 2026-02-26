@@ -203,7 +203,7 @@ Desarrollado con ❤️ por creadores de contenido, para creadores de contenido.
 
 ### ⭐ Historial de Estrellas
 
-[![Star History Chart](https://api.star-history.com/svg?repos=TU-USUARIO/flinchop&type=Date)](https://star-history.com/#TU-USUARIO/flinchop&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=TU-USUARIO/flinchop&type=Date)](https://star-history.com/#flinchop&Date)
 
 </div>
 
@@ -244,5 +244,6 @@ Desarrollado con ❤️ por creadores de contenido, para creadores de contenido.
   **Keywords**: editor de video gratis, video editor free, IA video editing, open source video editor, CapCut alternative, Filmora alternative, editor video android, editor video PC, video editing software, lightweight video editor, FlinChop editor, edición de video profesional gratis
   
 </div>
+
 
 
