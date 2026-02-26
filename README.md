@@ -1,7 +1,7 @@
 # 🎬 FlinChop - Editor de Video Profesional
 
 <div align="center">
-  <img src="Assets/1.jpeg" alt="FlinChop Logo" width="200"/>
+  <img src="Assets/1.png" alt="FlinChop Logo" width="200"/>
   
   ### Edita Videos Como un Profesional
   
