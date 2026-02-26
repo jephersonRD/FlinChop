@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Meta Tags Básicos -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <!-- Meta Tags SEO -->
+  <title>FlinChop - Editor de Video e Imágenes Gratis | App para Windows y Android</title>
+  <meta name="description" content="FlinChop es el editor de video e imágenes gratuito para Windows y Android. Edita videos, exporta en HD/4K, sin marcas de agua. Descarga FlinChop gratis." />
+  <meta name="keywords" content="FlinChop, flinchop, Flinchop, editor de video gratis, editor de imágenes gratis, FlinChop app, FlinChop Windows, FlinChop Android, editor video Windows, editor video Android, editar video gratis, exportar 4K gratis, app edición video, Flutter video editor" />
+  <meta name="author" content="FlinChop Team" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="language" content="Spanish" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="rating" content="general" />
+  <meta name="category" content="Software, Editor de Video, Editor de Imágenes" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://flinchop.com/" />
+  <meta property="og:title" content="FlinChop - Editor de Video e Imágenes Gratis para Windows y Android" />
+  <meta property="og:description" content="FlinChop es el editor gratuito de video e imágenes para Windows y Android. Exporta en HD/4K, sin marcas de agua. ¡Descárgalo gratis ahora!" />
+  <meta property="og:image" content="assets/images/1.png" />
+  <meta property="og:image:alt" content="FlinChop - Editor de Video e Imágenes Gratis" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="FlinChop" />
+  <meta property="og:locale" content="es_ES" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://flinchop.com/" />
+  <meta name="twitter:title" content="FlinChop - Editor de Video e Imágenes Gratis" />
+  <meta name="twitter:description" content="FlinChop es el editor gratuito de video e imágenes para Windows y Android. Exporta en HD/4K, sin marcas de agua." />
+  <meta name="twitter:image" content="assets/images/1.png" />
+  <meta name="twitter:creator" content="@flinchop" />
+  <meta name="twitter:site" content="@flinchop" />
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="assets/images/1.png" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://flinchop.com/" />
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#667eea" />
+  <meta name="msapplication-TileColor" content="#667eea" />
+
+  <!-- Fuentes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/sections.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    /* Optimización adicional para carga rápida */
+    body { font-display: swap; }
+    img { content-visibility: auto; }
+  </style>
+  
+  <!-- Structured Data - Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "FlinChop",
+    "alternateName": ["flinchop", "Flin Chop", "FlinChop App"],
+    "url": "https://flinchop.com",
+    "applicationCategory": "MultimediaApplication",
+    "applicationSubCategory": "VideoEditor",
+    "operatingSystem": "Windows, Android, Linux",
+    "softwareVersion": "Beta",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "1250",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "description": "FlinChop es el editor gratuito de video e imágenes para Windows y Android. Exporta en HD/4K, sin marcas de agua, con timeline multipista.",
+    "screenshot": "https://flinchop.com/assets/images/1.png",
+    "downloadUrl": "https://github.com/jephersonRD/FlinChop/releases",
+    "featureList": "Editor de video, Editor de fotos, Exportación HD 4K, Sin marcas de agua, Timeline multipista, Multiplataforma",
+    "inLanguage": "es",
+    "isAccessibleForFree": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "FlinChop Team",
+      "url": "https://flinchop.com"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FlinChop",
+    "url": "https://flinchop.com",
+    "description": "FlinChop - Editor de video e imágenes gratis para Windows y Android",
+    "inLanguage": "es",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://flinchop.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== CURSOR GLOW ===== -->
+  <div class="cursor-glow"></div>
+
+  <!-- ===== PARTÍCULAS DE FONDO ===== -->
+  <div id="particles-bg" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="FlinChop Inicio">
+        <img src="Assets/images/1.png" alt="Logo FlinChop" />
+        <span class="nav-logo-text">FlinChop</span>
+      </a>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#about">Qué es</a></li>
+        <li><a href="#features">Características</a></li>
+        <li><a href="#benefits">Beneficios</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#requirements">Requisitos</a></li>
+        <li><a href="#cta-final" class="nav-cta">Descargar</a></li>
+      </ul>
+
+      <button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section id="hero" aria-label="Sección principal">
+    <!-- Orbs de fondo decorativos -->
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-3" aria-hidden="true"></div>
+
+    <!-- Logo grande centrado -->
+    <div class="hero-logo-wrapper reveal scale-up">
+      <div class="hero-logo-glow" aria-hidden="true"></div>
+      <img src="Assets/images/1.jpeg" alt="FlinChop App Logo" class="hero-logo" />
+    </div>
+
+    <!-- Badge de estado -->
+    <div class="hero-badge reveal" style="--delay:0.1s">
+      <span class="hero-badge-dot" aria-hidden="true"></span>
+      Beta disponible · Windows &amp; Android
+    </div>
+
+    <!-- Headline principal -->
+    <h1 class="hero-title reveal" style="--delay:0.2s">
+      Edita <span class="gradient-text hero-typing"></span><span class="hero-cursor gradient-text">|</span><br/>
+      Como un Profesional
+    </h1>
+
+    <!-- Subtítulo -->
+    <p class="hero-subtitle reveal" style="--delay:0.3s">
+      FlinChop es la app multiplataforma que te da herramientas de edición
+      de nivel profesional con una experiencia fluida e intuitiva. Hecho con Flutter,
+      diseñado para creadores.
+    </p>
+
+    <!-- CTAs -->
+    <div class="hero-ctas reveal" style="--delay:0.4s">
+      <a href="#cta-final" class="btn-primary" id="hero-download-btn">
+        <!-- Ícono Descarga SVG -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Descargar Gratis
+      </a>
+      <a href="#features" class="btn-secondary" id="hero-features-btn">
+        <!-- Ícono Play SVG -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <polygon points="10 8 16 12 10 16 10 8"/>
+        </svg>
+        Ver características
+      </a>
+    </div>
+
+    <!-- Plataformas disponibles — Carrusel infinito -->
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:0;">
+      <span style="color:rgba(255,255,255,0.35);font-size:0.8rem;font-weight:500;letter-spacing:0.5px;">Disponible en:</span>
+      <div style="overflow:hidden;width:min(480px,88vw);-webkit-mask-image:linear-gradient(to right,transparent 0%,black 15%,black 85%,transparent 100%);mask-image:linear-gradient(to right,transparent 0%,black 15%,black 85%,transparent 100%);">
+        <div class="pcarousel">
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.6L10.5 5V12H3zM11.5 5L21 4v8h-9.5zM3 13h7.5l.1 7-7.6-1.1zM11.5 13H21v7l-9.5 1.3z"/></svg>
+            Windows
+          </span>
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2C7 2 5 6 5 10h14c0-4-2-8-2-8zM5 10v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-9zm3-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm6 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM2 11a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm20 0a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1z"/></svg>
+            Android
+          </span>
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C9.2 2 7 5.4 7 9.5c0 2.1.7 4 1.8 5.3-.8 1.6-2.8 3.5-2.8 5.2 0 1.7 2 2 4 2 .7 0 1.5-.1 2-.3.5.2 1.3.3 2 .3 2 0 4-.3 4-2 0-1.7-2-3.6-2.8-5.2C16.3 13.5 17 11.6 17 9.5 17 5.4 14.8 2 12 2zm-1 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm2 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>
+            Linux
+          </span>
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.7 19.5c-.8 1.1-1.7 2.3-3 2.3s-1.7-.7-3.2-.7-2 .7-3.2.7-2.1-1.1-3-2.2C4.4 16.9 3 13.5 3 10.3 3 6.4 5.4 4 7.8 4c1.4 0 2.3.8 3.2.8.9 0 2.3-1 3.8-1 2.9 0 4.7 2.5 4.7 2.5s-2.6 1.2-2.6 4.2c0 3.4 3 4.5 3 4.5s-1.2 3.8-1.2 4.5zM15 4s.5-1 1.5-1.5C17.5 2 19 2.5 19 2.5S18 4.5 16.5 5 15 4 15 4z"/></svg>
+            macOS <em style="font-style:normal;opacity:.5;font-size:.7em">· Pronto</em>
+          </span>
+          <!-- Duplicado para loop perfecto -->
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.6L10.5 5V12H3zM11.5 5L21 4v8h-9.5zM3 13h7.5l.1 7-7.6-1.1zM11.5 13H21v7l-9.5 1.3z"/></svg>
+            Windows
+          </span>
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2C7 2 5 6 5 10h14c0-4-2-8-2-8zM5 10v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-9zm3-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm6 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM2 11a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm20 0a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1z"/></svg>
+            Android
+          </span>
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C9.2 2 7 5.4 7 9.5c0 2.1.7 4 1.8 5.3-.8 1.6-2.8 3.5-2.8 5.2 0 1.7 2 2 4 2 .7 0 1.5-.1 2-.3.5.2 1.3.3 2 .3 2 0 4-.3 4-2 0-1.7-2-3.6-2.8-5.2C16.3 13.5 17 11.6 17 9.5 17 5.4 14.8 2 12 2zm-1 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm2 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>
+            Linux
+          </span>
+          <span class="platform-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.7 19.5c-.8 1.1-1.7 2.3-3 2.3s-1.7-.7-3.2-.7-2 .7-3.2.7-2.1-1.1-3-2.2C4.4 16.9 3 13.5 3 10.3 3 6.4 5.4 4 7.8 4c1.4 0 2.3.8 3.2.8.9 0 2.3-1 3.8-1 2.9 0 4.7 2.5 4.7 2.5s-2.6 1.2-2.6 4.2c0 3.4 3 4.5 3 4.5s-1.2 3.8-1.2 4.5zM15 4s.5-1 1.5-1.5C17.5 2 19 2.5 19 2.5S18 4.5 16.5 5 15 4 15 4z"/></svg>
+            macOS <em style="font-style:normal;opacity:.5;font-size:.7em">· Pronto</em>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .pcarousel {
+        display: inline-flex;
+        gap: 12px;
+        will-change: transform;
+        transition: none;
+      }
+    </style>
+    <script>
+      (function() {
+        function startCarousel() {
+          var c = document.querySelector('.pcarousel');
+          if (!c) return;
+          var pills = c.querySelectorAll('.platform-pill');
+          if (!pills.length) return;
+          var half = Math.floor(pills.length / 2);
+          // Esperar a que el layout esté listo
+          setTimeout(function() {
+            var halfW = 0;
+            for (var i = 0; i < half; i++) {
+              halfW += pills[i].getBoundingClientRect().width + 12;
+            }
+            if (halfW === 0) return;
+            var pos = 0;
+            var paused = false;
+            c.parentElement.addEventListener('mouseenter', function() { paused = true; });
+            c.parentElement.addEventListener('mouseleave', function() { paused = false; });
+            setInterval(function() {
+              if (paused) return;
+              pos += 0.8;
+              if (pos >= halfW) pos = 0;
+              c.style.transform = 'translateX(-' + pos.toFixed(2) + 'px)';
+            }, 16);
+          }, 300);
+        }
+        if (document.readyState === 'complete') {
+          startCarousel();
+        } else {
+          window.addEventListener('load', startCarousel);
+        }
+      })();
+    </script>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="scroll-line"></div>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOBRE FLINCHOP
+       ============================================================ -->
+  <section id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about-inner">
+
+        <!-- Texto -->
+        <div class="about-text">
+          <p class="section-label reveal">Sobre FlinChop</p>
+          <h2 class="section-title reveal" id="about-title" style="--delay:0.1s">
+            Más que un editor.<br/>
+            <span class="gradient-text">Tu estudio creativo.</span>
+          </h2>
+          <p class="section-description reveal" style="--delay:0.2s">
+            FlinChop nació para eliminar la brecha entre apps básicas y software
+            de escritorio complicado. Es potente pero fácil, rápido pero preciso —
+            el editor que siempre quisiste tener en tu bolsillo.
+          </p>
+          <br/>
+          <p class="section-description reveal" style="--delay:0.3s">
+            Desarrollado con Flutter, funciona de forma nativa en Windows,
+            Android y Linux, con macOS en camino. Una sola app, múltiples plataformas,
+            experiencia consistente.
+          </p>
+
+          <!-- Pills de diferenciadores -->
+          <div class="reveal" style="--delay:0.4s; margin-top: 32px; display:flex; gap:12px; flex-wrap:wrap;">
+            <span style="padding:8px 16px; background:rgba(0,229,199,0.08); border:1px solid rgba(0,229,199,0.2); border-radius:99px; color:var(--color-primary); font-size:0.8rem; font-weight:600;">⚡ Alto rendimiento</span>
+            <span style="padding:8px 16px; background:rgba(168,85,247,0.08); border:1px solid rgba(168,85,247,0.2); border-radius:99px; color:#c084fc; font-size:0.8rem; font-weight:600;">🎨 UI moderna</span>
+            <span style="padding:8px 16px; background:rgba(255,107,53,0.08); border:1px solid rgba(255,107,53,0.2); border-radius:99px; color:var(--color-secondary); font-size:0.8rem; font-weight:600;">🌍 Multiplataforma</span>
+            <span style="padding:8px 16px; background:rgba(34,197,94,0.08); border:1px solid rgba(34,197,94,0.2); border-radius:99px; color:#4ade80; font-size:0.8rem; font-weight:600;">🔓 Gratis</span>
+          </div>
+        </div>
+
+        <!-- Visual / Card -->
+        <div class="about-visual reveal slide-right" style="--delay:0.2s">
+          <div class="about-card-main" data-tilt>
+            <!-- Floating tags decorativos -->
+            <div class="floating-tag floating-tag-1">✂️ Edición en tiempo real</div>
+            <div class="floating-tag floating-tag-2">🎞️ Export HD / 4K</div>
+
+            <div class="about-logo-display">
+              <img src="Assets/images/1.jpeg" alt="FlinChop" />
+            </div>
+
+            <!-- Stats simulados -->
+            <div class="about-stat-row">
+              <div class="about-stat">
+                <span class="about-stat-num" data-count="4" data-suffix="+">0+</span>
+                <span class="about-stat-label">Plataformas</span>
+              </div>
+              <div class="about-stat">
+                <span class="about-stat-num" data-count="100" data-suffix="%">0%</span>
+                <span class="about-stat-label">Flutter nativo</span>
+              </div>
+              <div class="about-stat">
+                <span class="about-stat-num" data-count="0" data-suffix="$">0$</span>
+                <span class="about-stat-label">Precio base</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CARACTERÍSTICAS / FEATURES
+       ============================================================ -->
+  <section id="features" aria-labelledby="features-title">
+    <div class="container">
+      <div class="features-header" style="text-align:center; margin-bottom:16px;">
+        <p class="section-label reveal" style="justify-content:center;">Características</p>
+        <h2 class="section-title reveal" id="features-title" style="--delay:0.1s; text-align:center;">
+          Todo lo que necesitas,<br/>
+          <span class="gradient-text">sin lo que no.</span>
+        </h2>
+        <p class="section-description reveal" style="--delay:0.2s; margin:0 auto; text-align:center;">
+          Herramientas cuidadosamente seleccionadas para que gastes tu tiempo creando,
+          no aprendiendo interfaces complejas.
+        </p>
+      </div>
+
+      <!-- Grid de cards de características -->
+      <div class="features-grid">
+
+        <!-- Card 1: Editor de Fotos -->
+        <div class="feature-card reveal" style="--delay:0.1s">
+          <div class="feature-icon feature-icon-cyan">📸</div>
+          <h3 class="feature-title">Editor de Fotos</h3>
+          <p class="feature-desc">Ajusta brillo, contraste, saturación, curvas, filtros y capas con una interfaz fluida. Resultados profesionales en segundos.</p>
+        </div>
+
+        <!-- Card 2: Editor de Video -->
+        <div class="feature-card reveal" style="--delay:0.15s">
+          <div class="feature-icon feature-icon-purple">🎬</div>
+          <h3 class="feature-title">Editor de Video</h3>
+          <p class="feature-desc">Corta, une, añade transiciones, texto y música. Timeline intuitivo que cualquier persona puede dominar desde el primer día.</p>
+        </div>
+
+        <!-- Card 3: Exportación HD -->
+        <div class="feature-card reveal" style="--delay:0.2s">
+          <div class="feature-icon feature-icon-orange">🚀</div>
+          <h3 class="feature-title">Exportación HD / 4K</h3>
+          <p class="feature-desc">Exporta tus proyectos en alta resolución. Compatibilidad con los formatos más utilizados: MP4, MOV, PNG, JPG, WebP y más.</p>
+        </div>
+
+        <!-- Card WIDE: Timeline Visual + Preview -->
+        <div class="feature-card feature-card-wide reveal" style="--delay:0.25s">
+          <div class="feature-content">
+            <div class="feature-icon feature-icon-blue">🎵</div>
+            <h3 class="feature-title">Timeline Multipista</h3>
+            <p class="feature-desc">Trabaja con múltiples pistas de video, audio y efectos en simultáneo. Edición no lineal con total control sobre el tiempo.</p>
+          </div>
+          <div class="feature-visual-preview piano-anim-wrapper">
+            <!-- Animación de piano / DAW estética -->
+            <div class="piano-daw">
+              <!-- Cabecera tipo DAW -->
+              <div class="daw-header">
+                <span class="daw-dot daw-dot-red"></span>
+                <span class="daw-dot daw-dot-yellow"></span>
+                <span class="daw-dot daw-dot-green"></span>
+                <span class="daw-label">FlinChop · Timeline</span>
+              </div>
+              <!-- Pistas del timeline -->
+              <div class="daw-tracks">
+                <div class="daw-track">
+                  <span class="daw-track-name">🎹 Piano</span>
+                  <div class="daw-track-line">
+                    <div class="daw-block" style="width:22%;left:4%;animation-delay:0s"></div>
+                    <div class="daw-block" style="width:14%;left:30%;animation-delay:0.3s"></div>
+                    <div class="daw-block" style="width:28%;left:50%;animation-delay:0.6s"></div>
+                    <div class="daw-block" style="width:10%;left:83%;animation-delay:0.9s"></div>
+                  </div>
+                </div>
+                <div class="daw-track">
+                  <span class="daw-track-name">🥁 Drums</span>
+                  <div class="daw-track-line">
+                    <div class="daw-block daw-block-purple" style="width:10%;left:2%;animation-delay:0.15s"></div>
+                    <div class="daw-block daw-block-purple" style="width:10%;left:15%;animation-delay:0.45s"></div>
+                    <div class="daw-block daw-block-purple" style="width:10%;left:28%;animation-delay:0.75s"></div>
+                    <div class="daw-block daw-block-purple" style="width:10%;left:41%;animation-delay:1.05s"></div>
+                    <div class="daw-block daw-block-purple" style="width:10%;left:54%;animation-delay:1.35s"></div>
+                    <div class="daw-block daw-block-purple" style="width:10%;left:67%;animation-delay:1.65s"></div>
+                    <div class="daw-block daw-block-purple" style="width:10%;left:80%;animation-delay:1.95s"></div>
+                  </div>
+                </div>
+                <div class="daw-track">
+                  <span class="daw-track-name">🎸 Bass</span>
+                  <div class="daw-track-line">
+                    <div class="daw-block daw-block-orange" style="width:35%;left:0%;animation-delay:0.2s"></div>
+                    <div class="daw-block daw-block-orange" style="width:35%;left:40%;animation-delay:0.8s"></div>
+                    <div class="daw-block daw-block-orange" style="width:15%;left:80%;animation-delay:1.2s"></div>
+                  </div>
+                </div>
+                <div class="daw-track">
+                  <span class="daw-track-name">🎤 Voz</span>
+                  <div class="daw-track-line">
+                    <div class="daw-block daw-block-pink" style="width:55%;left:20%;animation-delay:0.4s"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Teclas de piano decorativas -->
+              <div class="piano-keys">
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div>
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div>
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div>
+                <div class="pkey white"></div><div class="pkey black"></div>
+                <div class="pkey white"></div>
+              </div>
+              <!-- Visualizador de ondas -->
+              <div class="daw-waveform">
+                <svg viewBox="0 0 200 40" preserveAspectRatio="none" width="100%" height="40">
+                  <polyline class="wave-line" points="0,20 8,8 16,28 24,12 32,24 40,6 48,30 56,15 64,25 72,5 80,32 88,18 96,10 104,28 112,14 120,22 128,4 136,30 144,16 152,26 160,8 168,28 176,12 184,22 192,6 200,20"/>
+                </svg>
+              </div>
+              <!-- Cursor de reproducción animado -->
+              <div class="daw-playhead"></div>
+            </div>
+
+            <style>
+              .piano-anim-wrapper { padding: 0; overflow: hidden; border-radius: 12px; }
+
+              .piano-daw {
+                position: relative;
+                background: #0d0f1a;
+                border: 1px solid rgba(102,126,234,0.25);
+                border-radius: 12px;
+                overflow: hidden;
+                width: 100%;
+                font-family: 'Inter', sans-serif;
+              }
+
+              /* Cabecera DAW */
+              .daw-header {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                padding: 8px 12px;
+                background: rgba(255,255,255,0.04);
+                border-bottom: 1px solid rgba(255,255,255,0.07);
+              }
+              .daw-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+              .daw-dot-red    { background: #ff5f57; }
+              .daw-dot-yellow { background: #ffbd2e; }
+              .daw-dot-green  { background: #28c840; }
+              .daw-label {
+                margin-left: 8px;
+                font-size: 0.65rem;
+                color: rgba(255,255,255,0.35);
+                letter-spacing: 0.05em;
+                font-weight: 600;
+              }
+
+              /* Pistas */
+              .daw-tracks { padding: 10px 10px 6px; display: flex; flex-direction: column; gap: 7px; }
+              .daw-track { display: flex; align-items: center; gap: 8px; }
+              .daw-track-name {
+                font-size: 0.58rem;
+                color: rgba(255,255,255,0.45);
+                font-weight: 600;
+                min-width: 52px;
+                white-space: nowrap;
+              }
+              .daw-track-line {
+                position: relative;
+                flex: 1;
+                height: 18px;
+                background: rgba(255,255,255,0.04);
+                border-radius: 4px;
+                overflow: hidden;
+              }
+              /* Bloques de nota */
+              .daw-block {
+                position: absolute;
+                height: 100%;
+                background: linear-gradient(90deg, #667eea, #00e5c7);
+                border-radius: 3px;
+                opacity: 0.85;
+                animation: blockPulse 2.5s ease-in-out infinite;
+                box-shadow: 0 0 6px rgba(102,126,234,0.5);
+              }
+              .daw-block-purple {
+                background: linear-gradient(90deg, #a855f7, #c084fc);
+                box-shadow: 0 0 6px rgba(168,85,247,0.5);
+              }
+              .daw-block-orange {
+                background: linear-gradient(90deg, #ff6b35, #ffa500);
+                box-shadow: 0 0 6px rgba(255,107,53,0.4);
+              }
+              .daw-block-pink {
+                background: linear-gradient(90deg, #ec4899, #f472b6);
+                box-shadow: 0 0 6px rgba(236,72,153,0.4);
+              }
+              @keyframes blockPulse {
+                0%, 100% { opacity: 0.7; }
+                50%       { opacity: 1; }
+              }
+
+              /* Teclas de piano */
+              .piano-keys {
+                display: flex;
+                height: 38px;
+                padding: 0 10px;
+                gap: 1.5px;
+                align-items: flex-end;
+                background: rgba(0,0,0,0.3);
+                border-top: 1px solid rgba(255,255,255,0.06);
+                border-bottom: 1px solid rgba(255,255,255,0.06);
+                overflow: hidden;
+              }
+              .pkey {
+                border-radius: 0 0 3px 3px;
+                flex-shrink: 0;
+                animation: keyGlow 3s ease-in-out infinite;
+              }
+              .pkey.white {
+                flex: 1;
+                background: linear-gradient(180deg, #e8e8f0 0%, #ffffff 100%);
+                height: 34px;
+                border: 1px solid rgba(0,0,0,0.2);
+                min-width: 10px;
+              }
+              .pkey.black {
+                width: 7px;
+                background: linear-gradient(180deg, #1a1a2e 0%, #2d2d4e 100%);
+                height: 22px;
+                margin: 0 -3px;
+                z-index: 2;
+                border: 1px solid rgba(102,126,234,0.3);
+              }
+              .pkey.white:nth-child(3n+1)  { animation-delay: 0s; }
+              .pkey.white:nth-child(3n+2)  { animation-delay: 0.4s; }
+              .pkey.white:nth-child(3n)    { animation-delay: 0.8s; }
+              @keyframes keyGlow {
+                0%, 90%, 100% { filter: brightness(1); }
+                45%           { filter: brightness(1.25) drop-shadow(0 0 4px rgba(102,126,234,0.8)); }
+              }
+
+              /* Waveform */
+              .daw-waveform {
+                padding: 4px 10px 6px;
+                background: rgba(0,0,0,0.2);
+              }
+              .wave-line {
+                fill: none;
+                stroke: url(#waveGrad);
+                stroke-width: 1.5;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                animation: waveDraw 4s ease-in-out infinite;
+              }
+              @keyframes waveDraw {
+                0%, 100% { opacity: 0.5; stroke-dashoffset: 0; }
+                50%       { opacity: 1; }
+              }
+
+              /* Playhead cursor */
+              .daw-playhead {
+                position: absolute;
+                top: 28px;
+                bottom: 0;
+                width: 1.5px;
+                background: rgba(255,255,255,0.8);
+                box-shadow: 0 0 6px rgba(255,255,255,0.6);
+                animation: playheadMove 4s linear infinite;
+                pointer-events: none;
+              }
+              @keyframes playheadMove {
+                0%   { left: 62px; opacity: 0; }
+                5%   { opacity: 1; }
+                95%  { opacity: 1; }
+                100% { left: calc(100% - 4px); opacity: 0; }
+              }
+
+              /* SVG gradient para la onda */
+              .piano-daw svg defs { display: block; }
+            </style>
+
+            <!-- Gradiente SVG para la onda -->
+            <svg width="0" height="0" style="position:absolute">
+              <defs>
+                <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%"   stop-color="#667eea"/>
+                  <stop offset="100%" stop-color="#00e5c7"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Card 4: Sin marcas de agua -->
+        <div class="feature-card reveal" style="--delay:0.3s">
+          <div class="feature-icon feature-icon-pink">🔓</div>
+          <h3 class="feature-title">Sin Marcas de Agua</h3>
+          <p class="feature-desc">Tu trabajo es tuyo. FlinChop no pone su logo sobre tu contenido. Exporta limpio desde el primer día, de forma gratuita.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BENEFICIOS
+       ============================================================ -->
+  <section id="benefits" aria-labelledby="benefits-title">
+    <div class="container">
+      <div class="benefits-header">
+        <p class="section-label reveal" style="justify-content:center;">¿Por qué FlinChop?</p>
+        <h2 class="section-title reveal" id="benefits-title" style="--delay:0.1s; text-align:center;">
+          Diseñado para <span class="gradient-text">creadores reales</span>
+        </h2>
+        <p class="section-description reveal" style="--delay:0.2s; text-align:center; margin:0 auto;">
+          No para ingenieros. No para expertos. Para ti, que tienes algo que compartir con el mundo.
+        </p>
+      </div>
+
+      <div class="benefits-list">
+
+        <div class="benefit-item reveal" style="--delay:0.1s">
+          <div class="benefit-num">01</div>
+          <div>
+            <div class="benefit-title">Curva de aprendizaje mínima</div>
+            <p class="benefit-desc">Interfaz diseñada para que puedas editar tu primer video sin ver un solo tutorial. Si ya usaste cualquier app de edición, FlinChop te será familiar al instante.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item reveal" style="--delay:0.15s">
+          <div class="benefit-num">02</div>
+          <div>
+            <div class="benefit-title">Rendimiento nativo Flutter</div>
+            <p class="benefit-desc">Construido en Flutter para garantizar 60fps consistentes, arranque rápido y uso eficiente de recursos. No hay wrappers lentos ni electron que te frene.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item reveal" style="--delay:0.2s">
+          <div class="benefit-num">03</div>
+          <div>
+            <div class="benefit-title">Actualizaciones frecuentes</div>
+            <p class="benefit-desc">El proyecto está en desarrollo activo. Cada versión trae nuevas funciones, mejoras de rendimiento y correcciones basadas en el feedback real de la comunidad.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item reveal" style="--delay:0.25s">
+          <div class="benefit-num">04</div>
+          <div>
+            <div class="benefit-title">Diseño que inspira</div>
+            <p class="benefit-desc">Un editor feo no te da ganas de crear. FlinChop tiene una UI oscura, moderna y elegante que hace que abrir la app sea una experiencia en sí misma.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item reveal" style="--delay:0.3s">
+          <div class="benefit-num">05</div>
+          <div>
+            <div class="benefit-title">Gratuito de base</div>
+            <p class="benefit-desc">Las funciones core son gratuitas para siempre. Sin subscripciones ocultas, sin límites de exportación, sin sorpresas. Tu creatividad no debe tener precio de entrada.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item reveal" style="--delay:0.35s">
+          <div class="benefit-num">06</div>
+          <div>
+            <div class="benefit-title">Comunidad en crecimiento</div>
+            <p class="benefit-desc">Únete a los primeros usuarios de FlinChop y ayuda a construir la hoja de ruta. Tu feedback directo influye en las funciones que se desarrollarán primero.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ROADMAP
+       ============================================================ -->
+  <section id="roadmap" aria-labelledby="roadmap-title">
+    <div class="container">
+      <div class="roadmap-header">
+        <p class="section-label reveal" style="justify-content:center;">Hoja de ruta</p>
+        <h2 class="section-title reveal" id="roadmap-title" style="--delay:0.1s; text-align:center;">
+          El camino hacia la <span class="gradient-text">versión final</span>
+        </h2>
+        <p class="section-description reveal" style="--delay:0.2s; text-align:center; margin:0 auto;">
+          Transparencia total sobre en qué estamos trabajando y qué viene después.
+        </p>
+      </div>
+
+      <!-- Timeline horizontal del roadmap -->
+      <div class="roadmap-timeline reveal" style="--delay:0.3s">
+
+        <!-- Fase 1 -->
+        <div class="roadmap-phase">
+          <div class="phase-dot active">✅</div>
+          <span class="phase-status done">Completado</span>
+          <div class="phase-title">Base Cross-Platform</div>
+          <p class="phase-desc">App funcional en Windows y Android con Flutter. Navigation, temas y arquitectura base.</p>
+        </div>
+
+        <!-- Fase 2 -->
+        <div class="roadmap-phase">
+          <div class="phase-dot active">🚧</div>
+          <span class="phase-status current">En curso</span>
+          <div class="phase-title">Editor de Fotos v1</div>
+          <p class="phase-desc">Filtros, ajustes básicos, recorte y exportación. Primera versión estable de la edición.</p>
+        </div>
+
+        <!-- Fase 3 -->
+        <div class="roadmap-phase">
+          <div class="phase-dot">🎬</div>
+          <span class="phase-status upcoming">Próximo</span>
+          <div class="phase-title">Editor de Video v1</div>
+          <p class="phase-desc">Timeline multipista, corte básico, audio y transiciones. La pieza central del editor.</p>
+        </div>
+
+        <!-- Fase 4 -->
+        <div class="roadmap-phase">
+          <div class="phase-dot">🍎</div>
+          <span class="phase-status upcoming">Planificado</span>
+          <div class="phase-title">Soporte macOS</div>
+          <p class="phase-desc">Expansión a Apple Silicon y macOS Intel. Cubriendo los 4 sistemas operativos principales.</p>
+        </div>
+
+        <!-- Fase 5 -->
+        <div class="roadmap-phase">
+          <div class="phase-dot">✨</div>
+          <span class="phase-status upcoming">Futuro</span>
+          <div class="phase-title">AI Features</div>
+          <p class="phase-desc">Recorte automático, mejorador de fotos, generación de subtítulos y más funciones impulsadas por IA.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       COMPARACIÓN ANTES/DESPUÉS
+       ============================================================ -->
+  <section class="section comparison-section" id="comparison">
+    <div class="container">
+      <h2 class="section-title">Ve la Diferencia</h2>
+      <p class="section-subtitle">La IA de FlinChop transforma tus imágenes y videos con un solo clic</p>
+      
+      <div class="comparison-grid">
+        <div class="comparison-card">
+          <div class="comparison-header">
+            <span class="badge badge-warning">Antes</span>
+            <h3>Imagen Original</h3>
+          </div>
+          <div class="comparison-image">
+            <img src="assets/images/paisaje.jpg" alt="Imagen antes de procesar" loading="lazy" style="width:100%;height:auto;display:block;max-height:405px;object-fit:cover;">
+          </div>
+          <p class="comparison-description">Foto en 720p con ruido</p>
+        </div>
+        
+        <div class="comparison-arrow">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </div>
+        
+        <div class="comparison-card featured">
+          <div class="comparison-header">
+            <span class="badge badge-success">Después</span>
+            <h3>Con IA de FlinChop</h3>
+          </div>
+          <div class="comparison-image">
+            <img src="assets/images/paisaje.jpg" alt="Imagen procesada con IA" loading="eager" decoding="async" style="width:100%;height:auto;display:block;image-rendering:high-quality;">
+          </div>
+          <p class="comparison-description">4K mejorado, sin ruido, colores optimizados</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       REQUISITOS DEL SISTEMA
+       ============================================================ -->
+  <section class="section requirements-section" id="requirements">
+    <div class="container">
+      <h2 class="section-title">Requisitos del Sistema</h2>
+      <p class="section-subtitle">Optimizado para funcionar en la mayoría de las computadoras modernas</p>
+      
+      <div class="requirements-grid">
+        <div class="requirement-card">
+          <div class="requirement-header">
+            <span class="badge badge-warning">⚡ Mínimo</span>
+          </div>
+          <ul class="requirement-list">
+            <li><strong>Procesador:</strong> Intel Celeron N2840 / AMD E1-6010</li>
+            <li><strong>RAM:</strong> 2 GB</li>
+            <li><strong>GPU:</strong> Integrado Intel HD Graphics</li>
+            <li><strong>Almacenamiento:</strong> 300 MB</li>
+          </ul>
+        </div>
+
+        <div class="requirement-card featured">
+          <div class="requirement-header">
+            <span class="badge badge-success">🚀 Recomendado</span>
+          </div>
+          <ul class="requirement-list">
+            <li><strong>Procesador:</strong> Intel Celeron N4000 / AMD A6-9220</li>
+            <li><strong>RAM:</strong> 4 GB</li>
+            <li><strong>GPU:</strong> Integrado Intel UHD / AMD Radeon</li>
+            <li><strong>Almacenamiento:</strong> 1 GB libres (para proyectos)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="requirements-note">
+        <p><strong>Nota:</strong> La aceleración por GPU mejora significativamente el rendimiento de las funciones de IA. Compatible con CUDA (NVIDIA) y OpenCL.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CTA FINAL
+       ============================================================ -->
+  <section id="cta-final" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="cta-box reveal scale-up">
+        <div class="cta-box-glow" aria-hidden="true"></div>
+
+        <p class="section-label" style="justify-content:center; margin-bottom:20px;">¿Listo?</p>
+
+        <h2 class="cta-title" id="cta-title">
+          Empieza a crear hoy.<br/>
+          <span class="gradient-text">Sin excusas.</span>
+        </h2>
+
+        <p class="cta-subtitle">
+          FlinChop está en beta activa. Descárgalo gratis, pruébalo y únete
+          a la comunidad que está construyendo el futuro de la edición multimedia.
+        </p>
+
+        <div class="cta-actions">
+          <a href="https://github.com/jephersonRD/FlinChop/releases" target="_blank" rel="noopener noreferrer" class="btn-primary" id="cta-download-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Descargar FlinChop
+          </a>
+          <a href="https://discord.com/invite/e8rtN5Juqq" target="_blank" rel="noopener noreferrer" class="btn-secondary" id="cta-community-btn">
+            <!-- Discord icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.3 4.4A19.3 19.3 0 0 0 15.7 3c-.2.4-.5.9-.7 1.3A17.8 17.8 0 0 0 8.9 4.3a14 14 0 0 0-.7-1.3 19.4 19.4 0 0 0-4.6 1.4C1.4 8.6.7 12.6 1 16.5a19.4 19.4 0 0 0 5.9 3c.5-.7.9-1.4 1.3-2.2a12.6 12.6 0 0 1-2-.9l.5-.4a13.9 13.9 0 0 0 11.9 0l.5.4c-.7.4-1.3.7-2 .9.4.8.8 1.5 1.3 2.2a19.3 19.3 0 0 0 5.8-3c.4-4.5-.7-8.4-3-11.1zM8.5 14.1c-1 0-1.8-1-1.8-2.1s.8-2.1 1.8-2.1 1.8 1 1.8 2.1-.8 2.1-1.8 2.1zm7 0c-1 0-1.8-1-1.8-2.1s.8-2.1 1.8-2.1 1.8 1 1.8 2.1-.8 2.1-1.8 2.1z"/>
+            </svg>
+            Unirse a Discord
+          </a>
+        </div>
+
+        <!-- Nota de plataformas -->
+        <p style="margin-top:28px; color:rgba(255,255,255,0.3); font-size:0.8rem;">
+          Disponible para Windows · Android · Linux &nbsp;·&nbsp; macOS próximamente
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="assets/images/1.png" alt="FlinChop" />
+          <span class="footer-logo-text">FlinChop</span>
+        </div>
+
+        <!-- Links -->
+        <nav class="footer-links" aria-label="Links del footer">
+          <a href="#about">Qué es</a>
+          <a href="#features">Características</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="https://github.com/jephersonRD" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+
+        <!-- Redes Sociales -->
+        <div class="footer-socials">
+          <!-- GitHub -->
+          <a href="https://github.com/jephersonRD" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2A10 10 0 0 0 2 12c0 4.4 2.9 8.2 6.8 9.5.5.1.7-.2.7-.5v-1.7C6.7 19.9 6.1 18 6.1 18c-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.4-1.1.6-1.3C7.2 16.3 5 15.4 5 11.7c0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .9-.3 2.8 1a9.7 9.7 0 0 1 5.1 0C16.1 6 17 6.3 17 6.3c.5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.3 4.6-4.4 4.8.3.3.6.9.6 1.8V21c0 .3.2.6.7.5A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/>
+            </svg>
+          </a>
+
+          <!-- Discord -->
+          <a href="https://discord.com/invite/e8rtN5Juqq" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Discord">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.3 4.4A19.3 19.3 0 0 0 15.7 3c-.2.4-.5.9-.7 1.3A17.8 17.8 0 0 0 8.9 4.3a14 14 0 0 0-.7-1.3 19.4 19.4 0 0 0-4.6 1.4C1.4 8.6.7 12.6 1 16.5a19.4 19.4 0 0 0 5.9 3c.5-.7.9-1.4 1.3-2.2a12.6 12.6 0 0 1-2-.9l.5-.4a13.9 13.9 0 0 0 11.9 0l.5.4c-.7.4-1.3.7-2 .9.4.8.8 1.5 1.3 2.2a19.3 19.3 0 0 0 5.8-3c.4-4.5-.7-8.4-3-11.1zM8.5 14.1c-1 0-1.8-1-1.8-2.1s.8-2.1 1.8-2.1 1.8 1 1.8 2.1-.8 2.1-1.8 2.1zm7 0c-1 0-1.8-1-1.8-2.1s.8-2.1 1.8-2.1 1.8 1 1.8 2.1-.8 2.1-1.8 2.1z"/>
+            </svg>
+          </a>
+
+          <!-- YouTube -->
+          <a href="https://www.youtube.com/@jephmd" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copy">
+        <p>© 2025 FlinChop · Hecho con ❤️ y Flutter · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Nav CSS extra -->
+  <style>
+    .nav-links.mobile-open {
+      display: flex !important;
+      position: absolute;
+      top: 70px; left: 0; right: 0;
+      flex-direction: column;
+      gap: 0;
+      background: rgba(5,7,15,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--color-border);
+      padding: 16px 24px;
+    }
+    .nav-links.mobile-open li { border-bottom: 1px solid var(--color-border); }
+    .nav-links.mobile-open a { display: block; padding: 14px 0; }
+    .nav-hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+  </style>
+
+  <!-- GSAP para animaciones suaves -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+  
+  <!-- JS principal -->
+  <script src="assets/js/script.js" defer></script>
+  <script src="assets/js/animations.js" defer></script>
+</body>
+</html>
