@@ -33,21 +33,6 @@
 | 🎵 **Biblioteca Musical** | ✅ Ilimitada | ✅ Limitada | ✅ Premium |
 | 💾 **Nube Gratis** | ✅ 10 GB | ❌ Sin nube | ❌ Premium |
 
-## 📈 Estadísticas de Popularidad
-
-<div align="center">
-
-| Plataforma | FlinChop | CapCut | Filmora |
-|:----------:|:--------:|:------:|:-------:|
-| ⭐ **Calificación** | 4.8/5.0 | 4.6/5.0 | 4.5/5.0 |
-| 📥 **Descargas** | 5M+ | 500M+ | 100M+ |
-| 👥 **Usuarios Activos** | 1.2M | 150M | 50M |
-| 🌍 **Países** | 120+ | 150+ | 140+ |
-| 📱 **GitHub Stars** | ⭐⭐⭐⭐⭐ | N/A | N/A |
-| 💬 **Comunidad Discord** | 50K+ | N/A | 80K+ |
-
-</div>
-
 ---
 
 ## 🎯 ¿Por Qué Elegir FlinChop?
@@ -296,3 +281,4 @@ Desarrollado con ❤️ por creadores de contenido, para creadores de contenido.
   <sub>🚧 **Nota**: FlinChop está actualmente en desarrollo. Síguenos para estar al tanto del lanzamiento oficial.</sub>
   
 </div>
+
