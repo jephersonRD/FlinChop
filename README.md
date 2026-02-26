@@ -54,8 +54,8 @@
 | Componente | Mínimo | Recomendado |
 |------------|--------|-------------|
 | **Sistema Operativo** | Windows 7 / Ubuntu 18.04 / macOS 10.13 | Windows 10/11 / Ubuntu 22.04 / macOS 13+ |
-| **Procesador** | Intel Celeron N4000 / AMD A4 | Intel Core i3 / AMD Ryzen 3 |
-| **RAM** | 4 GB | 8 GB o más |
+| **Procesador** | Intel Celeron N2000 / AMD A4 | Intel Core i3 / AMD Ryzen 3 |
+| **RAM** | 2 GB | 4 GB o más |
 | **Almacenamiento** | 500 MB libres | 2 GB libres (para proyectos) |
 | **Gráficos** | Integrado Intel HD | NVIDIA GTX 1050 / AMD RX 560 |
 | **Resolución** | 1280x720 | 1920x1080 o superior |
@@ -71,84 +71,6 @@
 | **GPU** | PowerVR GE8320 / Adreno 506 | Mali-G52 / Adreno 610 |
 
 > 💡 **¡FlinChop funciona donde otros no pueden!** Optimizado para hardware de bajo consumo sin comprometer funcionalidades.
-
----
-
-## ✨ Características Principales
-
-### 🤖 **Inteligencia Artificial Integrada**
-- 🎭 **Eliminación de Fondo Automática** - Borrado inteligente con un solo clic
-- 🎨 **Mejora de Calidad con IA** - Upscaling hasta 4K, reducción de ruido
-- 🗣️ **Subtítulos Automáticos** - Reconocimiento de voz en 40+ idiomas
-- 🎵 **Separación de Audio** - Aísla voces, música e instrumentos
-- 👤 **Detección de Rostros** - Tracking automático, efectos faciales
-- 🌈 **Corrección de Color IA** - Gradación profesional automática
-
-### 🎬 **Edición de Video Profesional**
-- ⏱️ **Timeline Multipista Ilimitado** - Sin límites de capas
-- 🎞️ **Formatos Soportados** - MP4, MOV, AVI, MKV, WebM, 4K, 8K
-- ✂️ **Corte Magnético Inteligente** - Snapping automático preciso
-- 🔄 **Transiciones Premium** - 200+ efectos profesionales
-- 🎥 **Keyframe Avanzado** - Animaciones personalizadas
-- 🎬 **Exportación Rápida** - Aceleración por GPU, sin pérdida
-
-### 🖼️ **Edición de Imágenes**
-- 🖌️ **Herramientas de Diseño** - Capas, máscaras, modos de fusión
-- 🪄 **Eliminación de Objetos** - Content-aware fill con IA
-- 📐 **Redimensionamiento Inteligente** - Mantiene proporciones importantes
-- 🎨 **Filtros y Efectos** - 500+ presets profesionales
-- 🌟 **Texto Avanzado** - Tipografía dinámica, efectos 3D
-
-### 🎵 **Audio y Música**
-- 🎼 **Biblioteca Musical** - 10,000+ tracks libres de derechos
-- 🎚️ **Ecualizador Profesional** - 10 bandas, presets por género
-- 🔊 **Efectos de Sonido** - 5,000+ SFX gratuitos
-- 🎤 **Reducción de Ruido** - Limpieza de audio con IA
-- 🔄 **Beat Sync** - Sincronización automática con música
-
-### 🚀 **Rendimiento y Optimización**
-- ⚡ **Renderizado GPU** - Soporte CUDA, Metal, OpenCL
-- 💾 **Proxy Automático** - Edición fluida en hardware limitado
-- 🔋 **Modo Bajo Consumo** - Ideal para laptops y móviles
-- 📊 **Previsualización en Tiempo Real** - Sin lag, sin esperas
-- 💨 **Inicio Rápido** - Listo en menos de 3 segundos
-
-### 🌐 **Colaboración y Nube**
-- ☁️ **10 GB Almacenamiento Gratis** - Sincroniza proyectos entre dispositivos
-- 👥 **Edición Colaborativa** - Trabaja en equipo en tiempo real
-- 📤 **Publicación Directa** - YouTube, TikTok, Instagram sin salir
-- 🔗 **Enlaces Compartidos** - Comparte proyectos con un link
-
----
-
-## 📦 Roadmap 2026
-
-- [ ] **Q1 2026** - 🚀 Lanzamiento oficial v1.0 (Windows, Linux, macOS, Android)
-- [ ] **Q2 2026** - 📱 Versión iOS/iPadOS
-- [ ] **Q3 2026** - 🔌 Plugins de terceros (API pública)
-- [ ] **Q3 2026** - 🎬 Edición 360° y VR
-- [ ] **Q4 2026** - 🎨 Animación 3D básica
-- [x] ✅ **Desarrollo Alpha** - En progreso
-
----
-
-## 🤝 Contribuir
-
-¡Las contribuciones son bienvenidas! FlinChop es **código abierto** y construido por la comunidad.
-
-### Cómo Contribuir:
-1. 🍴 Fork el proyecto
-2. 🌿 Crea tu rama (`git checkout -b feature/CaracteristicaIncreible`)
-3. 💾 Commit tus cambios (`git commit -m 'Add: nueva característica'`)
-4. 📤 Push a la rama (`git push origin feature/CaracteristicaIncreible`)
-5. 🔀 Abre un Pull Request
-
-### Áreas de Contribución:
-- 🐛 Reportar bugs y sugerir mejoras
-- 🌍 Traducciones a nuevos idiomas
-- 🎨 Diseño de UI/UX
-- 📝 Documentación y tutoriales
-- 💻 Desarrollo de nuevas funciones
 
 ---
 
@@ -281,4 +203,5 @@ Desarrollado con ❤️ por creadores de contenido, para creadores de contenido.
   <sub>🚧 **Nota**: FlinChop está actualmente en desarrollo. Síguenos para estar al tanto del lanzamiento oficial.</sub>
   
 </div>
+
 
