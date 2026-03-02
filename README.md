@@ -1,4 +1,4 @@
-# 🎬 FlinChop - Editor de Video e Imágenes con IA
+# 🎬 FlinChop - Editor de Video e Imágenes con Io
 
 <div align="center">
   <img src="assets/images/1.png" alt="FlinChop Logo - Editor de Video Gratis con IA" width="200"/>
@@ -244,6 +244,7 @@ Desarrollado con ❤️ por creadores de contenido, para creadores de contenido.
   **Keywords**: editor de video gratis, video editor free, IA video editing, open source video editor, CapCut alternative, Filmora alternative, editor video android, editor video PC, video editing software, lightweight video editor, FlinChop editor, edición de video profesional gratis
   
 </div>
+
 
 
 
